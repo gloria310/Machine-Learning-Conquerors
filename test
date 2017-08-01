@@ -1,3 +1,11 @@
 ```
 abc
 ```
+```
+>>> import nltk
+>>> words = nltk.corpus.gutenberg.words('austen-emma.txt')
+>>> len(words)
+192427
+>>> len(set(words))
+7811
+```
